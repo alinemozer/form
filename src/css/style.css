@@ -88,7 +88,7 @@ textarea, textarea::placeholder {
     opacity: 0;
 }
 
-.formulario span.input.erro-validacao {
+.formulario span .input.erro-validacao {
     opacity: 1;
 }
 
