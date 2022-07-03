@@ -1,0 +1,17 @@
+:root {
+    --fonte: 'Poppins';
+}
+
+:root {
+    --bg-cor1: rgba(255, 243, 7, 0.788);
+    --bg-cor2: rgba(255, 243, 7, 0.473);
+    --bg-container: #fff;
+    --bg-borda-formulario: #000;
+    --bg-formulario: rgb(10, 219, 219);
+    --bg-botao-formulario: rgb(255, 248, 32);
+}
+
+:root {
+    --borda-campo-preenchido: gray;
+    --borda-campo-vazio: rgb(255, 45, 140);
+}

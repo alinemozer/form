@@ -1,0 +1,122 @@
+html {
+    font-family: var(--fonte), sans-serif;
+    background: linear-gradient(to top, var(--bg-cor1), var(--bg-cor2));
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 900px;
+    background-color: var(--bg-container);
+    padding: 50px;
+    margin: 0 0 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 10px rgb(0, 0, .5);
+}
+
+.container .informacoes {
+    margin: 0 50px 0 0;
+}
+
+.container .informacoes .titulo {
+    font-size: 25px;
+    font-style: italic;
+    margin: 0 0 10px;
+}
+
+.container .informacoes .paragrafo {
+    font-size: 15px;
+    max-width: 350px;
+    margin: 0 0 5px;
+}
+
+.container .informacoes img {
+    max-width: 120px;
+    margin: 0 auto;
+}
+
+.formulario {
+    max-width: 350px;
+    border: 5px solid var(--bg-borda-formulario);
+    border-radius: 8px;
+    padding: 20px 35px 20px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: var(--bg-formulario);
+    font-weight: 700;
+}
+
+input, input::placeholder,
+textarea, textarea::placeholder {
+    font-family: 'Poppins';
+}
+
+.formulario .input,
+.btn {
+    border: 2px solid var(--bg-borda-formulario);
+    border-radius: 3px;
+    width: 300px;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.formulario .input.erro-validacao {
+    border: var(--borda-campo-vazio);
+}
+
+.formulario .input.campo-preenchido {
+    border: 2px solid var(--borda-campo-preenchido);
+}
+
+.formulario textarea {
+    height: 100px;
+}
+
+.formulario span {
+    font-size: 10px;
+    margin: 0 0 5px;
+    opacity: 0;
+}
+
+.formulario span.input.erro-validacao {
+    opacity: 1;
+}
+
+.formulario .paragrafo-formulario {
+    font-size: 13px;
+    margin: 0 0 20px;
+}
+
+.formulario .btn {
+    background-color: var(--bg-botao-formulario);
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--bg-borda-formulario);
+    text-align: center;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+.formulario .btn:hover {
+    background-color: var(--bg-container);
+}
+
+.rodape .link-portfolio {
+    font-size: 15px;
+    padding: 5px;
+    transition: .2s ease-in-out;
+}
+
+.rodape .link-portfolio:hover {
+    font-weight: 700;
+}

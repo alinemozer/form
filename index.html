@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Quest com validação de formulário, do módulo de JS Intermediério do curso DevQuest.">
+
+    <title>Validação de formulário com JS</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,500;1,700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="src/css/reset.css">
+    <link rel="stylesheet" href="src/css/variables.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <link rel="stylesheet" href="src/css/responsive.css">
+</head>
+
+<body>
+    <main class="container">
+        <div class="informacoes">
+            <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+            <p class="paragrafo">Caso tenha ficado com qualquer dúvida, basta nos mandar uma mensagem e entraremos em
+                contato em menos de 24h.</p>
+            <img src="src/image/mesage.gif" alt="gif com mensagem saindo de envelope">
+        </div>
+
+        <form class="formulario">
+            <input class="input" type="text" name="nome" id="nome" value="" placeholder="Nome completo*">
+            <span>campo obrigatório</span>
+
+            <input class="input" type="email" name="email" id="email" value="" placeholder="Email*">
+            <span>campo obrigatório</span>
+
+            <input class="input" type="tel" name="telefone" id="telefone" value="" placeholder="Telefone*">
+            <span>campo obrigatório</span>
+            
+            <textarea class="input" name="mensagem" id="mensagem" value="" placeholder="Mensagem*"></textarea>
+            <span>campo obrigatório</span>
+            
+            <p class="paragrafo-formulario">*campos obrigatórios</p>
+
+            <input class="btn" type="submit" href="#" value="Enviar"></input>
+        </form>
+    </main>
+
+    <footer class="rodape">
+        <a class="link-portfolio" href="https://alinemozer.github.io/amb-dev/">© 2022 AMB/DEV</a>
+    </footer>
+
+    <script src="src/js/index.js"></script>
+</body>
+
+</html>
