@@ -12,6 +12,6 @@
 }
 
 :root {
-    --borda-campo-preenchido: gray;
+    --borda-campo-preenchido: rgb(140, 136, 136);
     --borda-campo-vazio: rgb(255, 45, 140);
 }
