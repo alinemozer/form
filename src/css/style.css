@@ -85,10 +85,11 @@ textarea, textarea::placeholder {
 .formulario span {
     font-size: 10px;
     margin: 0 0 5px;
+    transition: .2s ease;
     opacity: 0;
 }
 
-.formulario span .erro-validacao {
+.formulario span.erro-validacao {
     opacity: 1;
 }
 
