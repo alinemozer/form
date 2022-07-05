@@ -17,8 +17,8 @@ botaoEnviar.addEventListener('click', () => {
         if (input.value == "") {
         input.classList.add("erro-validacao")
     }
-    })
-}) 
+    });
+});
 
 
 
