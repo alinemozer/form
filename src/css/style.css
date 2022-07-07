@@ -41,14 +41,13 @@ body {
 
 .container .informacoes img {
     max-width: 120px;
-    margin: 0 auto;
 }
 
 .formulario {
     max-width: 350px;
     border: 5px solid var(--bg-borda-formulario);
     border-radius: 8px;
-    padding: 20px 35px 20px 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;

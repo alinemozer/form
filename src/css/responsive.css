@@ -1,0 +1,40 @@
+@media(max-width: 975px) {
+    body {
+        margin: 25px 15px 10px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .container .informacoes {
+        margin: 35px;
+        text-align: center;
+    }
+
+    .container .informacoes .titulo {
+        font-size: 20px
+    }
+
+    .container .informacoes .paragrafo {
+        font-size: 14px;
+        max-width: 350px;
+        margin: 35px 0 0 0;
+    }
+}
+
+@media(max-width: 475px) {
+    .container {
+        padding: 0 15px 20px;
+    }
+
+    .formulario {
+        max-width: 300px;
+        margin: 35px 0;
+    }
+
+    .formulario .input,
+    .btn {
+        width: 250px;
+    }
+}
