@@ -109,7 +109,7 @@ textarea, textarea::placeholder {
 }
 
 .formulario .btn:hover {
-    background-color: var(--bg-container);
+    background-color: var(--borda-campo-vazio);
 }
 
 .rodape .link-portfolio {

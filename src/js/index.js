@@ -1,5 +1,4 @@
 const camposFormulario = document.querySelectorAll(".input");
-const campoObrigatorio = document.querySelectorAll("span");
 const botaoEnviar = document.querySelector(".btn");
 
 camposFormulario.forEach(input => {
