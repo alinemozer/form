@@ -12,9 +12,9 @@ camposFormulario.forEach(input => {
 });
 
 botaoEnviar.addEventListener('click', (e) => {
-    e.preventDefault()
     camposFormulario.forEach(input => {
         if (input.value == "") {
+            e.preventDefault()
             input.classList.add("erro-validacao");
             input.nextElementSibling.classList.add("erro-validacao");
         } else {
@@ -23,4 +23,5 @@ botaoEnviar.addEventListener('click', (e) => {
         }
     });
 });
+
 
