@@ -1,10 +1,7 @@
 @media(max-width: 975px) {
-    body {
-        margin: 25px 15px 10px;
-    }
-
     .container {
         flex-direction: column;
+        margin: 35px 0 0;
     }
 
     .container .informacoes {
@@ -30,7 +27,7 @@
 
     .formulario {
         max-width: 300px;
-        margin: 35px 0;
+        margin: 25px 0 20px;
     }
 
     .formulario .input,
