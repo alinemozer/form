@@ -1,7 +1,7 @@
 @media(max-width: 975px) {
     .container {
         flex-direction: column;
-        margin: 35px 15px 20px;
+        margin: 20px 15px;
     }
 
     .container .informacoes {
